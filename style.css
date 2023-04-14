@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body ,html{
+    overflow-x: hidden;
+}
+.section{
+    background-image: url(./smiling-female-doctor-holding-medical-records-lab-coat-her-office-clipboard-looking-camera-56673035.jpg);
+    /* background-position: right; */
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    padding: 10px 10%;
+}
+.navbar{
+    position: fixed;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+
+}
+.navbar .logo{
+    font-size: 28px;
+    font-weight: 300;
+    
+    
+}
+.navbar .logo span{
+  color:rgb(85, 47, 252);
+}
+.navbar nav ul{
+ display: flex;
+ align-items: center;
+}
+.navbar nav ul li{
+  margin-right: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.navbar nav ul li a:hover{
+    color: blue;
+}
+.navbar .btn{
+    padding: 15px 20px ;
+    background-color: rgb(47, 0, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.navbar .btn a{
+    color: #fff;
+    font-size: 16px;
+}
+.home-text .btn{
+    padding: 15px 20px ;
+    background-color: rgb(47, 0, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.home-text .btn a{
+    color: #fff;
+    font-size: 16px;
+}
+.home-text{
+ position: absolute;
+ top: 40%;
+ left: 15%;
+}
+.home-text h1{
+    padding: 0 0 16px 0;
+}
+.home-text p{
+    padding: 0 0 14px 0;
+    font-size: 18px;
+}
+.abouts{
+display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 5%;
+ margin: 4% 0;
+}
+.abouts img{
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+    
+}
+.abouts .btn{
+    padding: 15px 20px ;
+    background-color: rgb(47, 0, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.abouts .btn a{
+    color: #fff;
+    font-size: 16px;
+}
+.abouts span{
+    color: blue;
+    font-size: 19px;
+}
+.abouts p{
+    margin: 12px 0;
+    font-size: 16px;
+}
+.services{
+    background-color:#d8d5d5;
+    padding: 20px 10px;
+}
+.heading{
+   text-align: center;
+   font-size: 2.5rem;
+   font-weight: bolder;
+   margin-bottom: 3rem;
+}
+.services .box-container{
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+}
+.services .box-container .box{
+  padding: 30px 10px;
+  background-color: #fdfbfb;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 1px 2px 3px rgb(22, 22, 22);
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+.services .box-container .box:hover{
+    background-color: blue;
+    color: white;
+}
+.services .box-container .box i{
+    color: blue;
+    font-size: 35px;
+}
+.services .box-container .box:hover i{
+
+    color: white;
+}
+.services .box-container .box h3{
+  margin: 10px 0;
+  font-weight: bolder;
+}
+
+.work{
+    padding: 0 10%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+.work img{
+    height: 300px ;
+    width: 300px;
+}
+.work .work-list{
+    background-color: blue;
+    color: #fff;
+      text-align: center;
+      padding-bottom:30px ;
+      border-radius: 20px;
+      cursor: pointer;
+
+}
+.work .work-list p{
+    margin: 10px 0;
+}
+
+.satisfled{
+    padding: 4% 10%;
+    background-color: #d8d5d5;
+}
+.satisfled-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+.satisfled-list img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(47, 144, 255);
+}
+.satisfled-col{
+    padding: 2rem 1rem ;
+    background-color: #fff;
+}
+.satisfled-col p{
+   font-size: 18px;
+    font-weight: bold;
+
+}
+.satisfled-col .icon{
+    padding: 5px 0;
+    background-color: #d8d5d5;
+    width: 170px;
+    align-items: center;
+    margin: 15px 0 15px 25%;
+    color: blue;
+}
+.satisfled-col h3{
+    margin-bottom: 7px;
+}
+.cintact-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 10%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #201e1e;
+    padding: 15px;
+    margin: 15px 0 0 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.btn2{
+    padding: 10px 25px ;
+    background-color: rgb(18, 18, 243);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 4% 20%;
+    background-color: #d8d5d5;
+}
+.footer div i{
+    padding: 10px;
+    background-color: blue;
+    border-radius: 50%;
+    color: #fff;
+}
+.footer h2{
+    padding: 7px;
+}
+.footer p{
+    padding: 5px;
+}
+.footer-row{
+    background-color: #d8d5d5;
+    align-items: center;
+    text-align: center;
+    padding: 4%;
+
+}
+ .footer-row span{
+   color: blue;
+}
